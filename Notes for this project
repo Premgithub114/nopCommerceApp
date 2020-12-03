@@ -1,0 +1,22 @@
+======================================= Doubts ======================================
+
+1. Cross browser testing (browsers.py) - Tutorial - 2
+2. Data driven testing(half way) (test_by_Datadriven.py) - Tutorial - 2
+3. Logging (log_file.py) - Tutorial - 2
+
+ =========================== Clear notes on marking the test methods ===============================
+
+>> If we want to run all test methods which are marked as Sanity -
+                pytest -s -v -m "sanity" testCases/
+
+>> If we want to run all test methods which are marked as regression -
+                pytest -s -v -m "regression" testCases/
+
+>> If we want to run all test methods which are marked as regression and sanity -
+                pytest -s -v -m "regression and sanity" testCases/
+
+========================= How to run all the sanity test methods from CMD ========================
+
+>> Inside the project location, create run.bat file
+>> Inside that file, enter pytest -s -v -m "sanity" testCases/
+>> To run all the sanity test methods, double click on the run.bat file
